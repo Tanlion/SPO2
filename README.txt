@@ -1,0 +1,14 @@
+README
+
+1. DO NOT use prompt to embed your custom class into interface.ui. Just add a dummy widget.
+
+2. Pass Ui_interfaceName as an argument to you custom class, 
+e.g. class GaugePanel(QWidget, Ui_boardInterface): 
+
+3. Add self.setupUi(self) in __init__(self) function.
+
+4. background-color: #CDE7F2。1049BB
+
+5. compile resource img: pyrcc5 img.qrc -o img_rc.py
+
+#boardInterface{background-image: url(:/mapping/img/background2.png);}

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/mapping">
+        <file>img/background.png</file>
+        <file>img/background2.png</file>
+        <file>img/icon.png</file>
+        <file>img/ analysis.png</file>
+        <file>img/contact.png</file>
+        <file>img/home.png</file>
+        <file>img/setting.png</file>
+    </qresource>
+</RCC>
